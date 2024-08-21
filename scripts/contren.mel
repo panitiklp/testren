@@ -1,0 +1,8 @@
+global proc int main(){
+    string $pycmd = "import _render;_render.main()";
+    python($pycmd);
+    
+    return 1;
+}
+
+main;
